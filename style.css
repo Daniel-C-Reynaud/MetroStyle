@@ -41,12 +41,13 @@ p {
    justify-content: center;
    text-transform: uppercase;
    flex-direction: column;
-   color: white;
+   color: black;
 }
 
 .container>div:hover {
    transform: scale(0.9);
    transition: 0.2s;
+   color: white;
 }
 
 .container>div:not(:hover) {
@@ -60,23 +61,23 @@ p {
 }
 
 .item-1 {
-   background-color: #ff5733;
+   background-color: #f57242;
 }
 
 .item-2 {
-   background-color: #ffbd33;
+   background-color: #f54254;
 }
 
 .item-3 {
-   background-color: #dbff33;
+   background-color: #4269f5;
 }
 
 .item-4 {
-   background-color: #33ffbd;
+   background-color: #595851;
 }
 
 .item-5 {
-   background-color: #12ff34;
+   background-color: #2fb514;
    grid-column: 2 / 4;
 }
 
