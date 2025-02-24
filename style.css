@@ -112,8 +112,9 @@ p {
    .container {
       justify-content: center;
       grid-template-columns: repeat(1, 100%);
-      grid-template-rows: repeat(5, 50%);
-      gap: 10px;
+      grid-template-rows: repeat(5, 70%);
+      gap: 0px;
+      transition: 0.2s;
    }
 
    .item-5 {
