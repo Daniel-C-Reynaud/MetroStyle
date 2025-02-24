@@ -30,7 +30,7 @@ p {
    justify-content: center;
    grid-template-columns: repeat(3, 200px);
    grid-template-rows: repeat(2, 200px);
-   gap: 20px;
+   gap: 10px;
    transition: 0.2s;
 }
 
@@ -90,7 +90,7 @@ p {
       justify-content: center;
       grid-template-columns: repeat(2, 200px);
       grid-template-rows: repeat(3, 200px);
-      gap: 10px;
+      gap: 5px;
    }
 
    .item-5 {
