@@ -8,7 +8,7 @@
 
 
 body {
-   background-color: #907eaf;
+   background-color: #000000;
 }
 
 body>h1 {
@@ -23,7 +23,7 @@ body>h1 {
    justify-content: space-around;
    font: 400 25px Poppins;
    margin: 20px 0;
-   text-shadow: 0 0 10px rgba(0, 0, 0, 0.425);
+   t: 0 0 10px rgba(0, 0, 0, 0.425);
    color: white;
 }
 
@@ -52,7 +52,6 @@ body>h1 {
    text-transform: uppercase;
    flex-direction: column;
    color: white;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
 }
 
 .container-1>div:hover {
@@ -89,7 +88,6 @@ body>h1 {
    text-transform: uppercase;
    flex-direction: column;
    color: white;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
 }
 
 .container-2>div:hover {
@@ -293,12 +291,10 @@ body>h1 {
 
    .container-1>div {
       grid-column: 1;
-      box-shadow: none;
    }
 
    .container-2>div {
       grid-column: 1;
-      box-shadow: none;
    }
 
    .item-6 {
