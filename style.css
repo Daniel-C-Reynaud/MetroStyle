@@ -3,7 +3,9 @@
 * {
    margin: 0;
    padding: 0;
+   user-select: none;
 }
+
 
 body {
    background-color: #000000;
@@ -30,7 +32,7 @@ p {
    justify-content: center;
    grid-template-columns: repeat(3, 200px);
    grid-template-rows: repeat(2, 200px);
-   gap: 10px;
+   gap: 8.5px;
    transition: 0.2s;
 }
 
@@ -47,7 +49,6 @@ p {
 .container>div:hover {
    transform: scale(0.9);
    transition: 0.2s;
-   color: white;
 }
 
 .container>div:not(:hover) {
@@ -95,7 +96,6 @@ p {
    }
 
    .item-5 {
-      background-color: #12ff34;
       grid-column: 1 / 3;
    }
 }
@@ -107,19 +107,18 @@ p {
    }
 
    body > h1 {
-      font: 300 20px Poppins;
+      font: 300 20px Poppins, 'sans-serif';
    }
 
    .container {
       justify-content: center;
       grid-template-columns: repeat(1, 100%);
       grid-template-rows: repeat(5, 70%);
-      gap: 0px;
+      gap: 3.5px;
       transition: 0.2s;
    }
 
    .item-5 {
-      background-color: #12ff34;
       grid-column: 1;
    }
 }
