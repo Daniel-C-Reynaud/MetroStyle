@@ -1,6 +1,6 @@
-# [Nome do Seu Projeto] - Netro Style
+# Metro Style
 
-Meu teste de metro style, treino de grid layout e treino de cores
+Meu teste de Metro Style, treino de Grid Layout e treino de cores
 
 ## Sobre o Metro Style
 
